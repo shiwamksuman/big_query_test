@@ -1,0 +1,72 @@
+name: project_1st_June
+description: ''
+version: 0.0.1
+author: suman.shiwam@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: project1stjune
+  parentArtefactID: sumanshiwamprophecyioteam
+  buildSystem: wheel
+  author: null
+  createdAt: '2026-06-01 14:52:43'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2026-06-01 17:49:14'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2026-06-01T17:49:14.188903Z'
+  name: plibMaven
+  version: 9.3.0
+  id: '750302235'
+  createdAt: '2026-06-01T17:49:14.188903Z'
+  type: plibMaven
+- modifiedAt: '2026-06-01T17:49:14.188903Z'
+  name: plibPypi
+  version: 2.1.17
+  id: '726770777'
+  createdAt: '2026-06-01T17:49:14.188903Z'
+  type: plibPypi
+projectDependencies:
+  '5':
+    projectUID: 5
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/Hyz8gPVP_team_2/Hyz8gPVP_project_5.git&subPath=
+    version: 0.0.10
+    isDefault: true
+    author: null
+    createdAt: '2026-06-01 14:50:42'
+  '4':
+    projectUID: 4
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/Hyz8gPVP_team_2/Hyz8gPVP_project_4.git&subPath=
+    version: 0.2.55
+    isDefault: true
+    author: null
+    createdAt: '2026-06-01 14:50:42'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
